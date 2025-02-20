@@ -6,8 +6,13 @@ fun main() {
 //        print(" $i ")
 //    }
 
-    val wordToCheck = "car"
-    val givenText = "rca"
+//    val wordToCheck = "car"
+//    val givenText = "rca"
+//
+//    println(isAnagram(wordToCheck, givenText ))
 
-    println(isAnagram(wordToCheck, givenText ))
+
+    val nums = intArrayOf(1, 2, 3, 4)
+
+    print(containsDuplicate(nums))
 }
