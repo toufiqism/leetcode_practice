@@ -1,3 +1,5 @@
+import java.util.Stack
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
@@ -12,7 +14,10 @@ fun main() {
 //    println(isAnagram(wordToCheck, givenText ))
 
 
-    val nums = intArrayOf(1, 2, 3, 4)
+//    val nums = intArrayOf(1, 2, 3, 4)
 
-    print(containsDuplicate(nums))
+//    print(containsDuplicate(nums))
+
+    val match = "()[]{}"
+    println(isValidParentheses(match))
 }
