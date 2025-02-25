@@ -17,7 +17,10 @@ fun main() {
 //    val nums = intArrayOf(1, 2, 3, 4)
 
 //    print(containsDuplicate(nums))
+//
+//    val match = "()[]{}"
+//    println(isValidParentheses(match))
 
-    val match = "()[]{}"
-    println(isValidParentheses(match))
+
+    println(missingNumber(intArrayOf(1,2,0,3,5,4,6)))
 }
