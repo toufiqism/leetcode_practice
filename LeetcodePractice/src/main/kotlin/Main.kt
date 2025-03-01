@@ -22,5 +22,7 @@ fun main() {
 //    println(isValidParentheses(match))
 
 
-    println(missingNumber(intArrayOf(1,2,0,3,5,4,6)))
+//    println(missingNumber(intArrayOf(1,2,0,3,5,4,6)))
+
+    println(isValidString("abcab"))
 }
