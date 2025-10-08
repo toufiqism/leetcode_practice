@@ -24,5 +24,6 @@ fun main() {
 
 //    println(missingNumber(intArrayOf(1,2,0,3,5,4,6)))
 
-    println(isValidString("abcab"))
+//    println(isValidString("abcab"))
+    println(isPalindrome(1021))
 }
