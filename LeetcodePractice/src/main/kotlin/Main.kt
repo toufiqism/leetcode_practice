@@ -3,6 +3,7 @@ import java.util.Stack
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
+    try {
 //    val vals = twoSum(intArrayOf(123,51,256,1577,2144,2159,15246), 16823)
 //    for (i in vals) {
 //        print(" $i ")
@@ -25,5 +26,9 @@ fun main() {
 //    println(missingNumber(intArrayOf(1,2,0,3,5,4,6)))
 
 //    println(isValidString("abcab"))
-    println(isPalindrome(1021))
+//        println(longestCommonPrefix(arrayOf("a","")))
+
+    } catch (exc: Exception) {
+        exc.printStackTrace()
+    }
 }
